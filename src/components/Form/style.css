@@ -1,0 +1,45 @@
+.form-container {
+  width: 22.75rem;
+  height: 21.875rem;
+  padding: 2.375rem 1.625rem;
+  border: 1px solid var(--color-grey-2);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+  row-gap: 0;
+  max-width: 100%;
+}
+
+.input_description{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.input_value{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.select_type{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.button_insert{
+  padding: 1rem;
+  width: 19.625rem;
+  height: 3rem;
+  background-color: var(--color-brand-1);
+  border: var(--color-brand-1);
+  color: var(--color-grey-1);
+  border-radius: 0.5rem;
+
+}
+
+.button_insert:hover{
+  background-color: var(--color-brand-2);
+  transition: 300ms;
+  transform: scale(1.1)
+}

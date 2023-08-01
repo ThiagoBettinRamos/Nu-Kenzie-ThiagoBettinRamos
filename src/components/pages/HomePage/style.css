@@ -1,0 +1,114 @@
+main{
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 56.25rem;
+    gap: 3.625rem;
+    max-width: 100%;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 100%;
+}
+
+.right{
+    width: 36.125rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+   
+}
+  
+.right > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.right > div > h2{
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.right > div > div{
+    display: flex;
+    gap: 1rem;
+}
+
+.container_total_value{
+    width: 22.75rem;
+    border: 1px solid var(--color-grey-2);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 100%;
+}
+
+.container_total_value > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_total_value > div > h2 {
+    font-weight: 700;
+    font-size: 16px;  
+}
+
+
+.container_total_value > div > span{
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-brand-1);
+}
+
+.container_total_value > span{
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--color-grey-3);
+}
+
+.button_resume{
+    width: 5.375rem;
+    height: 2.5rem;
+    background-color: var(--color-grey-2);
+    border: var(--color-grey-2);
+    color: var(--color-grey-4);
+    border-radius: 0.5rem;
+}
+
+.button_resume-selected{
+    width: 5.375rem;
+    height: 2.5rem;
+    background-color: var(--color-brand-1);
+    border: var(--color-brand-1);
+    color: var(--color-grey-1);
+    border-radius: 0.5rem;
+}
+
+.button_resume:hover{
+    background-color: var(--color-grey-4);
+    transition: 300ms;
+    color: var(--color-grey-1);
+}
+
+@media(max-width: 1000px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+}
